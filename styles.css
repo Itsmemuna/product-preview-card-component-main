@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3eae3;
+}
+.main {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 600px;
+  height: 400px;
+}
+.first {
+  height: 400px;
+  width: 250px;
+  /* border: 2px solid black; */
+  border-radius: 2%;
+  /* margin: 250px; */
+}
+img {
+  height: 400px;
+  width: 250px;
+  border-radius: 2%;
+}
+.second {
+  height: 400px;
+  width: 250px;
+  /* border: 2px solid black; */
+  border-radius: 2%;
+  background-color: white;
+}
+.perfume {
+  text-align: left;
+  padding-top: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.bold {
+  /* font-family: Fraunces, serif; */
+  font-family: Fraunces;
+  /* font-size: 25px; */
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.bold,
+p,
+.price {
+  padding: 0 30px;
+}
+p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: Montserrat;
+}
+.price {
+  font-family: Fraunces;
+  font-size: 35px;
+  font-weight: 700;
+  color: #3e8369;
+}
+.block {
+  display: flex;
+  margin-top: 10px;
+}
+small {
+  margin-top: 10px;
+  margin-right: 10px;
+  text-decoration: line-through;
+  font-family: Montserrat;
+}
+button {
+  width: 185px;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #3d8168;
+  border-color: #3d8168;
+  color: #e9f8f1;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.attribution{
+    margin-top: 20px;
+    margin-left: 100px;
+}
